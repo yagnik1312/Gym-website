@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="chess.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Gym Registration Form</title>
+ 
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="gym.css">
+</head>
+
+<body>
+
+
+
+   <!--  <img class="bg" src="https://source.unsplash.com/1250x1250?chess," alt="L.D. COLLEGE"> -->
+    <div class="container">
+        <h1 id="heading">Welcome to Gym Registration form</h3>
+            <p>Enter your details and submit this form to confirm your participation in the Gym </p>
+            <form action="http://localhost/phpprac/Demo.php" method="post" onsubmit=" validateform()" name="myform">
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+                <span class="span"><label class="label">Semester: </label> <select name="semester">
+                        <option selected value="1">
+                            1
+                        </option>
+                        <option value="2">2
+
+                        </option>
+                        <option value="3">
+                            3
+                        </option value4>
+                        4
+                        </option>
+                        <option value="5">
+                            5
+                        </option>
+                        <option value="6">6
+
+                        </option>
+
+                        <option value="7">7
+
+                        </option>
+
+                        <option value="8">8
+                        </option>
+
+
+
+
+                    </select></span>
+                <span class="span"><label class="label">Branch: </label> <select name="branch">
+                        <option selected value="computer">
+                            COMPUTER
+                        </option>
+                        <option value="civil">CIVIL
+
+                        </option>
+                        <option value="automobile">
+                            AUTOMOBILE
+                        </option>
+                        <option value="ec">
+                            EC
+                        </option>
+                        <option value="it">
+                            IT
+                        </option>
+                        <option value="chemical">CHEMICAL
+
+                        </option>
+
+                        <option value="mechanical">MECHANICAL
+
+                        </option>
+
+
+
+
+
+
+                    </select></span>
+                <input type="text" name="age" id="age" placeholder="Enter your Age">
+                <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+                <input type="phone" name="phone" id="phone" placeholder="Enter your phone">
+                <textarea name="desc" id="desc" cols="30" rows="10"
+                    placeholder="Enter any other information here"></textarea>
+                <button class="btn">Submit</button>
+            </form>
+    </div>
+
+
+</body>
+
+</html>
